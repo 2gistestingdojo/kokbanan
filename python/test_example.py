@@ -4,7 +4,7 @@ import unittest
 
 class ExampleTest(BaseTestCase):
     def test_example(self):
-        main_window = self.driver.find_element_by_class_name('Window')
+        main_window = self.driver.find_element_by_name('Testing Dojo 1.0')
 
         search_string = main_window.find_element_by_class_name('TextBox')
         search_string.send_keys('Son')
@@ -16,7 +16,6 @@ class ExampleTest(BaseTestCase):
         product_items = products_list.find_elements_by_class_name('ListViewItem')
 
         self.assertEqual(len(product_items), 3)
-
 
 if __name__ == '__main__':
     unittest.main()
