@@ -3,7 +3,7 @@ import unittest
 
 
 class Bug3Test(BaseTestCase):
-
+    pass
     # def test_bug3_changeid(self):
     #     main_window = self.driver.find_element_by_class_name('Window')
     #

@@ -3,6 +3,7 @@ import unittest
 
 
 class Bug2Test(BaseTestCase):
+    pass
 
     # def test_bug1_canceladd(self):
     #     main_window = self.driver.find_element_by_id('MainWindow')
