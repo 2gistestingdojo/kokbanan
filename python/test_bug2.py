@@ -4,10 +4,10 @@ import unittest
 
 class Bug2Test(BaseTestCase):
 
-    def test_bug1(self):
+    def test_bug1_canceladd(self):
         main_window = self.driver.find_element_by_class_name('Window')
 
-        search_button = main_window.find_element_by_name('Добавить')
+        search_button = main_window.find_element_by_id('AddNewProductMW')
         search_button.click()
 
         add_form = main_window.find_element_by_name('Add new product')

@@ -4,7 +4,7 @@ import unittest
 
 class ExampleTest(BaseTestCase):
     def test_example(self):
-        main_window = self.driver.find_element_by_name('Testing Dojo 1.0')
+        main_window = self.driver.find_element_by_class_name('Window')
 
         search_string = main_window.find_element_by_class_name('TextBox')
         search_string.send_keys('Son')
