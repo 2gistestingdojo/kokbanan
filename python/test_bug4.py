@@ -4,17 +4,17 @@ import unittest
 
 
 class Bug4Test(BaseTestCase):
-
-    def test_bug4_changeid(self):
-        main_window = self.driver.find_element_by_class_name('Window')
-
-        products_list = main_window.find_element_by_id('ProductsMW')
-        print(products_list)
-        product_items = products_list.find_element_by_name('Телефон C1sko')
-        print(product_items)
-
-        button = main_window.find_element_by_name('По убыванию')
-        button.click()
+    pass
+    # def test_bug4_changeid(self):
+    #     main_window = self.driver.find_element_by_class_name('Window')
+    #
+    #     products_list = main_window.find_element_by_id('ProductsMW')
+    #     print(products_list)
+    #     product_items = products_list.find_element_by_name('Телефон C1sko')
+    #     print(product_items)
+    #
+    #     button = main_window.find_element_by_name('По убыванию')
+    #     button.click()
 
 
 
